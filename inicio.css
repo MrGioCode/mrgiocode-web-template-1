@@ -2,7 +2,7 @@ body {
     background: white;
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .nav1 {
@@ -68,57 +68,64 @@ body {
 .nav3 {
     text-align: center;
     background: transparent;
-    color: white;
-    padding: 50px;
-    margin: 0 auto;
-    height: auto;
+    color: #101010;
+    padding: 100px;
     overflow: hidden;
 }
 .carta1 {
     float: left;
-    background: linear-gradient(90deg, #6715ec, #8b15ec);
-    color: white;
-    padding: 40px;
-    margin: 10px;
-    height: 300px;
-    max-height: 500px;
-    width: 300px;
-    border-radius: 15px;
+    text-align: center;
+    background: #dedede;
+    color: black;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+    height: 100px;
+    width: 150px;
+    box-shadow: 2px 2px 2px 1px #00000041;
+    border-top: 3px solid #6715ec;
+    transition: 0.6s;
+}
+.carta1:hover {
+    padding: 70px;
 }
 .carta2 {
     float: left;
-    background: linear-gradient(90deg, #1535ec, #15a8ec);
-    color: white;
-    padding: 40px;
-    margin: 10px;
-    height: 300px;
-    max-height: 500px;
-    width: 300px;
-    border-radius: 15px;
+    text-align: center;
+    background: #dedede;
+    color: black;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+    height: 100px;
+    width: 150px;
+    box-shadow: 2px 2px 2px 1px #00000041;
+    border-top: 3px solid #6715ec;
+    transition: 0.6s;
+}
+.carta2:hover {
+    padding: 70px;
 }
 .carta3 {
     float: left;
-    background: linear-gradient(90deg, #e3ee0a, #ffa600);
-    color: white;
-    padding: 40px;
-    margin: 10px;
-    height: 300px;
-    max-height: 500px;
-    width: 300px;
-    border-radius: 15px;
-}
-.carta1-botones {
-    text-decoration: none;
+    display: inline;
     text-align: center;
-    background: transparent;
-    color: white;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin: 5px;
+    background: #dedede;
+    color: black;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+    height: 100px;
+    width: 150px;
+    box-shadow: 2px 2px 2px 1px #00000041;
+    border-top: 3px solid #6715ec;
+    transition: 0.6s;
 }
-.carta1-botones:hover {
-    border-bottom: 3px solid white;
+.carta3:hover {
+    padding: 70px;
 }
 
 .footer {
